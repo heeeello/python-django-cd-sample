@@ -1,7 +1,7 @@
 from django.test import TestCase
 from django.test.client import Client
 
-# test
+# test2
 # Create your tests here.
 class ChatTests(TestCase):
     client_class = Client
