@@ -16,6 +16,7 @@ before_script:
     - pip install -r requirements.txt
 
 script:
+    - ip addr 
     - env
     - coverage run --source='.' manage.py test
     - coverage report
